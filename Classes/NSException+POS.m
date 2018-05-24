@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation NSException (POSRx)
+@implementation NSException (POS)
 
-+ (instancetype)posrx_exceptionWithFormat:(NSString *)format, ... {
++ (instancetype)pos_exceptionWithFormat:(NSString *)format, ... {
     NSParameterAssert(format);
     va_list args;
     va_start(args, format);

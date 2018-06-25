@@ -11,8 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-// Public constants
-NSString * const kPOSErrorDomain = @"com.github.pavelosipov.ErrorDomain";
+// Categories
 NSString * const kPOSInternalErrorCategory = @"Internal";
 NSString * const kPOSSystemErrorCategory = @"System";
 

@@ -7,6 +7,6 @@ Pod::Spec.new do |s|
   s.authors      = { 'Pavel Osipov' => 'posipov84@gmail.com' }
   s.source       = { :git => 'https://github.com/pavelosipov/POSErrorHandling.git', :tag => s.version }
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = '8.0'
   s.source_files = 'Classes/**/*.{h,m}'
 end

@@ -1,16 +1,16 @@
 //
-//  NSException+POS.m
+//  NSException+POSErrorHandling.m
 //  POSErrorHandling
 //
 //  Created by Pavel Osipov on 25.03.15.
 //  Copyright © 2018 Pavel Osipov. All rights reserved.
 //
 
-#import "NSException+POS.h"
+#import "NSException+POSErrorHandling.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@implementation NSException (POS)
+@implementation NSException (POSErrorHandling)
 
 + (instancetype)pos_exceptionWithFormat:(NSString *)format, ... {
     NSParameterAssert(format);

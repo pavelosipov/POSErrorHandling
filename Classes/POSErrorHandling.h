@@ -6,5 +6,6 @@
 //  Copyright © 2018 Pavel Osipov. All rights reserved.
 //
 
-#import <POSErrorHandling/NSException+POS.h>
-#import <POSErrorHandling/POSContracts.h>
+#import "POSTrackableEventBuilder.h"
+#import "NSException+POSErrorHandling.h"
+#import "NSError+POSErrorHandling.h"

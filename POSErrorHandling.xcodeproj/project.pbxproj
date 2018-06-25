@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E9166BA920B74A1400C35142 /* NSException+POS.m in Sources */ = {isa = PBXBuildFile; fileRef = E9166BA620B74A1300C35142 /* NSException+POS.m */; };
+		E986A4B520E13590008E71E0 /* POSTrackableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */; };
+		E986A4B620E13590008E71E0 /* NSError+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */; };
+		E986A4B720E13590008E71E0 /* NSException+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */; };
+		E986A4BA20E15CDE008E71E0 /* POSTrackableEventBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,10 +27,17 @@
 
 /* Begin PBXFileReference section */
 		E9166B9820B7494900C35142 /* libPOSErrorHandling.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPOSErrorHandling.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9166BA520B74A1300C35142 /* NSException+POS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+POS.h"; sourceTree = "<group>"; };
-		E9166BA620B74A1300C35142 /* NSException+POS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+POS.m"; sourceTree = "<group>"; };
-		E9166BA720B74A1300C35142 /* POSContracts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSContracts.h; sourceTree = "<group>"; };
 		E9166BA820B74A1300C35142 /* POSErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSErrorHandling.h; sourceTree = "<group>"; };
+		E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+POSErrorHandling.h"; sourceTree = "<group>"; };
+		E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSTrackableEvent.m; sourceTree = "<group>"; };
+		E986A4AE20E13590008E71E0 /* POSTrackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSTrackable.h; sourceTree = "<group>"; };
+		E986A4AF20E13590008E71E0 /* POSTrackableEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSTrackableEvent.h; sourceTree = "<group>"; };
+		E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+POSErrorHandling.m"; sourceTree = "<group>"; };
+		E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+POSErrorHandling.h"; sourceTree = "<group>"; };
+		E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+POSErrorHandling.m"; sourceTree = "<group>"; };
+		E986A4B420E13590008E71E0 /* POSContracts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSContracts.h; sourceTree = "<group>"; };
+		E986A4B820E15CDE008E71E0 /* POSTrackableEventBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSTrackableEventBuilder.h; sourceTree = "<group>"; };
+		E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POSTrackableEventBuilder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +70,35 @@
 		E9166BA420B74A1300C35142 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E9166BA520B74A1300C35142 /* NSException+POS.h */,
-				E9166BA620B74A1300C35142 /* NSException+POS.m */,
-				E9166BA720B74A1300C35142 /* POSContracts.h */,
+				E986A4B120E13590008E71E0 /* Contracts */,
+				E986A4AA20E13590008E71E0 /* Tracking */,
 				E9166BA820B74A1300C35142 /* POSErrorHandling.h */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		E986A4AA20E13590008E71E0 /* Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				E986A4AE20E13590008E71E0 /* POSTrackable.h */,
+				E986A4AF20E13590008E71E0 /* POSTrackableEvent.h */,
+				E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */,
+				E986A4B820E15CDE008E71E0 /* POSTrackableEventBuilder.h */,
+				E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */,
+				E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */,
+				E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */,
+			);
+			path = Tracking;
+			sourceTree = "<group>";
+		};
+		E986A4B120E13590008E71E0 /* Contracts */ = {
+			isa = PBXGroup;
+			children = (
+				E986A4B420E13590008E71E0 /* POSContracts.h */,
+				E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */,
+				E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */,
+			);
+			path = Contracts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -94,7 +127,7 @@
 		E9166B9020B7494900C35142 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Pavel Osipov";
 				TargetAttributes = {
 					E9166B9720B7494900C35142 = {
@@ -125,7 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9166BA920B74A1400C35142 /* NSException+POS.m in Sources */,
+				E986A4B620E13590008E71E0 /* NSError+POSErrorHandling.m in Sources */,
+				E986A4BA20E15CDE008E71E0 /* POSTrackableEventBuilder.m in Sources */,
+				E986A4B720E13590008E71E0 /* NSException+POSErrorHandling.m in Sources */,
+				E986A4B520E13590008E71E0 /* POSTrackableEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +182,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -153,6 +190,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -201,6 +239,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -208,6 +247,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

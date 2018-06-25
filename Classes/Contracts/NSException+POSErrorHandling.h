@@ -1,5 +1,5 @@
 //
-//  NSException+POS.h
+//  NSException+POSErrorHandling.h
 //  POSErrorHandling
 //
 //  Created by Pavel Osipov on 25.03.15.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSException (POS)
+@interface NSException (POSErrorHandling)
 
 /// Creates exception with specified description.
 + (instancetype)pos_exceptionWithFormat:(NSString *)format, ...;

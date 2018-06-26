@@ -11,6 +11,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+// Error Domain
+NSString * const kPOSErrorDomain = @"POSErrorHandlingErrorDomain";
+
 // Categories
 NSString * const kPOSInternalErrorCategory = @"Internal";
 NSString * const kPOSSystemErrorCategory = @"System";
@@ -105,7 +108,7 @@ static NSString * const kPOSIncidentMarkKey = @"IncidentMark";
     return self.userInfo[kPOSTrackableDescriptionKey] ?: self.localizedDescription;
 }
 
-- (nullable NSDictionary<NSString *,id<NSObject>> *)params {
+- (nullable POSTrackableParams *)params {
     return self.userInfo[kPOSTrackableParamsKey];
 }
 

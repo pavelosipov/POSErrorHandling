@@ -19,12 +19,12 @@ NSString * const kPOSInternalErrorCategory = @"Internal";
 NSString * const kPOSSystemErrorCategory = @"System";
 
 // Public keys
+NSString * const kPOSCategoryKey = @"Category";
 NSString * const kPOSTrackableDescriptionKey = @"VerboseDescription";
 NSString * const kPOSTrackableParamsKey = @"TrackableParams";
 NSString * const kPOSTrackableTagsKey = @"TrackableTags";
 
 // Private keys
-static NSString * const kPOSCategoryKey = @"Category";
 static NSString * const kPOSIncidentMarkKey = @"IncidentMark";
 
 @implementation NSError (POSErrorHandling)

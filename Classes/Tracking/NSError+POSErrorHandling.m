@@ -95,7 +95,7 @@ static NSString * const kPOSIncidentMarkKey = @"IncidentMark";
 }
 
 - (nullable NSArray<NSString *> *)tags {
-    if ([self.domain isEqualToString:kPOSErrorDomain]) {
+    if (self.userInfo[kPOSCategoryKey] != nil) {
         return self.userInfo[kPOSTrackableTagsKey];
     }
     return @[@(self.code).stringValue];

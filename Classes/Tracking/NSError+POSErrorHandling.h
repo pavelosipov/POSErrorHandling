@@ -19,6 +19,9 @@ FOUNDATION_EXTERN NSString * const kPOSInternalErrorCategory;
 /// Category of system errors.
 FOUNDATION_EXTERN NSString * const kPOSSystemErrorCategory;
 
+/// Key for error category in userInfo dictionary.
+FOUNDATION_EXTERN NSString * const kPOSCategoryKey;
+
 /// Key for human readable description of the problem in userInfo dictionary.
 FOUNDATION_EXPORT NSString * const kPOSTrackableDescriptionKey;
 

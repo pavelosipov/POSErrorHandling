@@ -9,4 +9,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.source_files = 'Classes/**/*.{h,m}'
+  s.resource_bundle = { 'POSErrorHandling-Resources' => ['Resources/*.lproj'] }
+  s.preserve_paths = 'Resources'
 end

@@ -8,6 +8,7 @@
 
 #import "NSError+POSErrorHandling.h"
 #import "NSException+POSErrorHandling.h"
+#import "NSString+POSErrorHandling.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -27,6 +28,17 @@ NSString * const kPOSTrackableTagsKey = @"TrackableTags";
 // Private keys
 static NSString * const kPOSIncidentMarkKey = @"IncidentMark";
 
+@interface NSString (POSErrorHandlingError)
+@end
+
+@implementation NSString (POSErrorHandlingError)
+
+- (nullable NSString *)pos_localizedErrorHandlingErrorCategory {
+    return [self pos_localizedInBundle:@"POSErrorHandling-Resources" table:@"NSError"];
+}
+
+@end
+
 @implementation NSError (POSErrorHandling)
 
 #pragma mark - Public
@@ -36,31 +48,34 @@ static NSString * const kPOSIncidentMarkKey = @"IncidentMark";
 }
 
 + (NSError *)pos_internalErrorWithFormat:(nullable NSString *)format, ... {
-    NSString *description = nil;
+    NSMutableDictionary *userInfo = [[NSMutableDictionary alloc] init];
     if (format) {
         va_list args;
         va_start(args, format);
-        description = [[NSString alloc] initWithFormat:format arguments:args];
+        userInfo[kPOSTrackableDescriptionKey] = [[NSString alloc] initWithFormat:format arguments:args];
         va_end(args);
     }
-    return [self pos_errorWithCategory:kPOSInternalErrorCategory
-                              userInfo:(description ? @{kPOSTrackableDescriptionKey : description} : nil)];
+    userInfo[NSLocalizedDescriptionKey] = [kPOSInternalErrorCategory pos_localizedErrorHandlingErrorCategory];
+    return [self pos_errorWithCategory:kPOSInternalErrorCategory userInfo:userInfo];
 }
 
 + (NSError *)pos_systemErrorWithReason:(nullable NSError *)reason {
-    return [self pos_errorWithCategory:kPOSSystemErrorCategory userInfo:(reason ? @{NSUnderlyingErrorKey : reason} : nil)];
+    NSMutableDictionary *userInfo = [[NSMutableDictionary alloc] init];
+    userInfo[NSUnderlyingErrorKey] = reason;
+    userInfo[NSLocalizedDescriptionKey] = [kPOSSystemErrorCategory pos_localizedErrorHandlingErrorCategory];
+    return [self pos_errorWithCategory:kPOSSystemErrorCategory userInfo:userInfo];
 }
 
 + (NSError *)pos_systemErrorWithFormat:(nullable NSString *)format, ... {
-    NSString *description = nil;
+    NSMutableDictionary *userInfo = [[NSMutableDictionary alloc] init];
     if (format) {
         va_list args;
         va_start(args, format);
-        description = [[NSString alloc] initWithFormat:format arguments:args];
+        userInfo[kPOSTrackableDescriptionKey] = [[NSString alloc] initWithFormat:format arguments:args];
         va_end(args);
     }
-    return [self pos_errorWithCategory:kPOSSystemErrorCategory
-                              userInfo:(description ? @{kPOSTrackableDescriptionKey : description} : nil)];
+    userInfo[NSLocalizedDescriptionKey] = [kPOSSystemErrorCategory pos_localizedErrorHandlingErrorCategory];
+    return [self pos_errorWithCategory:kPOSSystemErrorCategory userInfo:userInfo];
 }
 
 + (NSError *)pos_errorWithCategory:(NSString *)category {

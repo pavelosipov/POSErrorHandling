@@ -1,0 +1,10 @@
+/* 
+  NSError.strings
+  POSErrorHandling
+
+  Created by Pavel Osipov on 03/08/2018.
+  Copyright © 2018 Pavel Osipov. All rights reserved.
+*/
+
+"Internal" = "Внутренняя ошибка";
+"System" = "Системная ошибка";

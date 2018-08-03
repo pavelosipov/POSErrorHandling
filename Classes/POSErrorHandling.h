@@ -9,3 +9,4 @@
 #import "POSTrackableEventBuilder.h"
 #import "NSException+POSErrorHandling.h"
 #import "NSError+POSErrorHandling.h"
+#import "NSString+POSErrorHandling.h"

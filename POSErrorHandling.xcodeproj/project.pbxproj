@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		684BFB51219AC37400A09BF4 /* POSConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */; };
 		68ADFC892114839100BA89F2 /* NSString+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */; };
 		E986A4B520E13590008E71E0 /* POSTrackableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */; };
 		E986A4B620E13590008E71E0 /* NSError+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */; };
@@ -27,6 +28,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSConsoleLogger.h; sourceTree = "<group>"; };
+		684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSConsoleLogger.m; sourceTree = "<group>"; };
+		684BFB50219AC37400A09BF4 /* POSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLogger.h; sourceTree = "<group>"; };
 		68ADFC8321146CF000BA89F2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/NSError.strings; sourceTree = "<group>"; };
 		68ADFC8521146CFE00BA89F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NSError.strings; sourceTree = "<group>"; };
 		68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+POSErrorHandling.h"; sourceTree = "<group>"; };
@@ -56,6 +60,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		684BFB4D219AC37400A09BF4 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				684BFB50219AC37400A09BF4 /* POSLogger.h */,
+				684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */,
+				684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
 		68ADFC8021146C6000BA89F2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +109,7 @@
 			children = (
 				E986A4B120E13590008E71E0 /* Contracts */,
 				E986A4AA20E13590008E71E0 /* Tracking */,
+				684BFB4D219AC37400A09BF4 /* Logging */,
 				68ADFC8621147D8100BA89F2 /* Localization */,
 				E9166BA820B74A1300C35142 /* POSErrorHandling.h */,
 			);
@@ -187,6 +202,7 @@
 				E986A4BA20E15CDE008E71E0 /* POSTrackableEventBuilder.m in Sources */,
 				68ADFC892114839100BA89F2 /* NSString+POSErrorHandling.m in Sources */,
 				E986A4B720E13590008E71E0 /* NSException+POSErrorHandling.m in Sources */,
+				684BFB51219AC37400A09BF4 /* POSConsoleLogger.m in Sources */,
 				E986A4B520E13590008E71E0 /* POSTrackableEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

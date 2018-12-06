@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'POSErrorHandling'
-  s.version      = '1.1.1'
+  s.version      = '1.2.0'
   s.license      = 'MIT'
   s.summary      = 'Utilities for design-by-contract programming and error handling.'
   s.homepage     = 'https://github.com/pavelosipov/POSErrorHandling'

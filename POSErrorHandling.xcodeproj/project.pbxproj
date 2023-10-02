@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2867B16F2ACB1D990011E6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B16E2ACB1D990011E6E7 /* AppDelegate.swift */; };
+		2867B1712ACB1D990011E6E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1702ACB1D990011E6E7 /* SceneDelegate.swift */; };
+		2867B1732ACB1D990011E6E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1722ACB1D990011E6E7 /* ViewController.swift */; };
+		2867B1762ACB1D990011E6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1742ACB1D990011E6E7 /* Main.storyboard */; };
+		2867B1782ACB1D9A0011E6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1772ACB1D9A0011E6E7 /* Assets.xcassets */; };
+		2867B17B2ACB1D9A0011E6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1792ACB1D9A0011E6E7 /* LaunchScreen.storyboard */; };
+		2867B18C2ACB1F310011E6E7 /* POSErrorHandlingFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867B18B2ACB1F310011E6E7 /* POSErrorHandlingFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2867B18F2ACB1F310011E6E7 /* POSErrorHandlingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1892ACB1F310011E6E7 /* POSErrorHandlingFramework.framework */; };
+		2867B1902ACB1F310011E6E7 /* POSErrorHandlingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1892ACB1F310011E6E7 /* POSErrorHandlingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2867B1952ACB1F890011E6E7 /* POSContracts.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B420E13590008E71E0 /* POSContracts.h */; };
+		2867B1962ACB1F890011E6E7 /* NSException+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */; };
+		2867B1972ACB1F890011E6E7 /* NSException+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */; };
+		2867B1982ACB1F890011E6E7 /* POSTrackable.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AE20E13590008E71E0 /* POSTrackable.h */; };
+		2867B1992ACB1F890011E6E7 /* POSTrackableEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AF20E13590008E71E0 /* POSTrackableEvent.h */; };
+		2867B19A2ACB1F890011E6E7 /* POSTrackableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */; };
+		2867B19B2ACB1F890011E6E7 /* POSTrackableEventBuilder.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B820E15CDE008E71E0 /* POSTrackableEventBuilder.h */; };
+		2867B19C2ACB1F890011E6E7 /* POSTrackableEventBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */; };
+		2867B19D2ACB1F890011E6E7 /* NSError+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */; };
+		2867B19E2ACB1F890011E6E7 /* NSError+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */; };
+		2867B19F2ACB1F890011E6E7 /* POSLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB50219AC37400A09BF4 /* POSLogger.h */; };
+		2867B1A02ACB1F890011E6E7 /* POSConsoleLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */; };
+		2867B1A12ACB1F890011E6E7 /* POSConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */; };
+		2867B1A22ACB1F890011E6E7 /* NSString+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */; };
+		2867B1A32ACB1F890011E6E7 /* NSString+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */; };
+		2867B1A42ACB1F890011E6E7 /* POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E9166BA820B74A1300C35142 /* POSErrorHandling.h */; };
+		2867B1A52ACB1F890011E6E7 /* NSError.strings in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC8421146CF000BA89F2 /* NSError.strings */; };
+		2867B1A62ACB1F890011E6E7 /* POSErrorHandlingFramework.h in Sources */ = {isa = PBXBuildFile; fileRef = 2867B18B2ACB1F310011E6E7 /* POSErrorHandlingFramework.h */; };
 		684BFB51219AC37400A09BF4 /* POSConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */; };
 		68ADFC892114839100BA89F2 /* NSString+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */; };
 		E986A4B520E13590008E71E0 /* POSTrackableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */; };
@@ -15,7 +42,28 @@
 		E986A4BA20E15CDE008E71E0 /* POSTrackableEventBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2867B18D2ACB1F310011E6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9166B9020B7494900C35142 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2867B1882ACB1F310011E6E7;
+			remoteInfo = POSErrorHandlingFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
+		2867B1942ACB1F310011E6E7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2867B1902ACB1F310011E6E7 /* POSErrorHandlingFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9166B9620B7494900C35142 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -28,6 +76,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2867B16C2ACB1D990011E6E7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2867B16E2ACB1D990011E6E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2867B1702ACB1D990011E6E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2867B1722ACB1D990011E6E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2867B1752ACB1D990011E6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2867B1772ACB1D9A0011E6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2867B17A2ACB1D9A0011E6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2867B17C2ACB1D9A0011E6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2867B1892ACB1F310011E6E7 /* POSErrorHandlingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSErrorHandlingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2867B18B2ACB1F310011E6E7 /* POSErrorHandlingFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSErrorHandlingFramework.h; sourceTree = "<group>"; };
 		684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSConsoleLogger.h; sourceTree = "<group>"; };
 		684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSConsoleLogger.m; sourceTree = "<group>"; };
 		684BFB50219AC37400A09BF4 /* POSLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSLogger.h; sourceTree = "<group>"; };
@@ -50,6 +108,21 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2867B1692ACB1D990011E6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867B18F2ACB1F310011E6E7 /* POSErrorHandlingFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2867B1862ACB1F310011E6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9166B9520B7494900C35142 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -60,6 +133,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2867B16D2ACB1D990011E6E7 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				2867B16E2ACB1D990011E6E7 /* AppDelegate.swift */,
+				2867B1702ACB1D990011E6E7 /* SceneDelegate.swift */,
+				2867B1722ACB1D990011E6E7 /* ViewController.swift */,
+				2867B1742ACB1D990011E6E7 /* Main.storyboard */,
+				2867B1772ACB1D9A0011E6E7 /* Assets.xcassets */,
+				2867B1792ACB1D9A0011E6E7 /* LaunchScreen.storyboard */,
+				2867B17C2ACB1D9A0011E6E7 /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		2867B1802ACB1DA70011E6E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2867B18A2ACB1F310011E6E7 /* POSErrorHandlingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				2867B18B2ACB1F310011E6E7 /* POSErrorHandlingFramework.h */,
+			);
+			path = POSErrorHandlingFramework;
+			sourceTree = "<group>";
+		};
 		684BFB4D219AC37400A09BF4 /* Logging */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +194,10 @@
 			children = (
 				E9166BA420B74A1300C35142 /* Classes */,
 				68ADFC8021146C6000BA89F2 /* Resources */,
+				2867B16D2ACB1D990011E6E7 /* Example */,
+				2867B18A2ACB1F310011E6E7 /* POSErrorHandlingFramework */,
 				E9166B9920B7494900C35142 /* Products */,
+				2867B1802ACB1DA70011E6E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				E9166B9820B7494900C35142 /* libPOSErrorHandling.a */,
+				2867B16C2ACB1D990011E6E7 /* Example.app */,
+				2867B1892ACB1F310011E6E7 /* POSErrorHandlingFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -142,7 +249,55 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		2867B1842ACB1F310011E6E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867B18C2ACB1F310011E6E7 /* POSErrorHandlingFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		2867B16B2ACB1D990011E6E7 /* Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2867B17F2ACB1D9A0011E6E7 /* Build configuration list for PBXNativeTarget "Example" */;
+			buildPhases = (
+				2867B1682ACB1D990011E6E7 /* Sources */,
+				2867B1692ACB1D990011E6E7 /* Frameworks */,
+				2867B16A2ACB1D990011E6E7 /* Resources */,
+				2867B1942ACB1F310011E6E7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2867B18E2ACB1F310011E6E7 /* PBXTargetDependency */,
+			);
+			name = Example;
+			productName = Example;
+			productReference = 2867B16C2ACB1D990011E6E7 /* Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2867B1882ACB1F310011E6E7 /* POSErrorHandlingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2867B1912ACB1F310011E6E7 /* Build configuration list for PBXNativeTarget "POSErrorHandlingFramework" */;
+			buildPhases = (
+				2867B1842ACB1F310011E6E7 /* Headers */,
+				2867B1852ACB1F310011E6E7 /* Sources */,
+				2867B1862ACB1F310011E6E7 /* Frameworks */,
+				2867B1872ACB1F310011E6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POSErrorHandlingFramework;
+			productName = POSErrorHandlingFramework;
+			productReference = 2867B1892ACB1F310011E6E7 /* POSErrorHandlingFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		E9166B9720B7494900C35142 /* POSErrorHandling */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9166BA120B7494900C35142 /* Build configuration list for PBXNativeTarget "POSErrorHandling" */;
@@ -166,9 +321,18 @@
 		E9166B9020B7494900C35142 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Pavel Osipov";
 				TargetAttributes = {
+					2867B16B2ACB1D990011E6E7 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
+					2867B1882ACB1F310011E6E7 = {
+						CreatedOnToolsVersion = 14.2;
+						ProvisioningStyle = Automatic;
+					};
 					E9166B9720B7494900C35142 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
@@ -182,6 +346,7 @@
 			knownRegions = (
 				en,
 				ru,
+				Base,
 			);
 			mainGroup = E9166B8F20B7494900C35142;
 			productRefGroup = E9166B9920B7494900C35142 /* Products */;
@@ -189,11 +354,68 @@
 			projectRoot = "";
 			targets = (
 				E9166B9720B7494900C35142 /* POSErrorHandling */,
+				2867B16B2ACB1D990011E6E7 /* Example */,
+				2867B1882ACB1F310011E6E7 /* POSErrorHandlingFramework */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		2867B16A2ACB1D990011E6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867B17B2ACB1D9A0011E6E7 /* LaunchScreen.storyboard in Resources */,
+				2867B1782ACB1D9A0011E6E7 /* Assets.xcassets in Resources */,
+				2867B1762ACB1D990011E6E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2867B1872ACB1F310011E6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		2867B1682ACB1D990011E6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867B1732ACB1D990011E6E7 /* ViewController.swift in Sources */,
+				2867B16F2ACB1D990011E6E7 /* AppDelegate.swift in Sources */,
+				2867B1712ACB1D990011E6E7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2867B1852ACB1F310011E6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2867B1952ACB1F890011E6E7 /* POSContracts.h in Sources */,
+				2867B1962ACB1F890011E6E7 /* NSException+POSErrorHandling.h in Sources */,
+				2867B1972ACB1F890011E6E7 /* NSException+POSErrorHandling.m in Sources */,
+				2867B1982ACB1F890011E6E7 /* POSTrackable.h in Sources */,
+				2867B1992ACB1F890011E6E7 /* POSTrackableEvent.h in Sources */,
+				2867B19A2ACB1F890011E6E7 /* POSTrackableEvent.m in Sources */,
+				2867B19B2ACB1F890011E6E7 /* POSTrackableEventBuilder.h in Sources */,
+				2867B19C2ACB1F890011E6E7 /* POSTrackableEventBuilder.m in Sources */,
+				2867B19D2ACB1F890011E6E7 /* NSError+POSErrorHandling.h in Sources */,
+				2867B19E2ACB1F890011E6E7 /* NSError+POSErrorHandling.m in Sources */,
+				2867B19F2ACB1F890011E6E7 /* POSLogger.h in Sources */,
+				2867B1A02ACB1F890011E6E7 /* POSConsoleLogger.h in Sources */,
+				2867B1A12ACB1F890011E6E7 /* POSConsoleLogger.m in Sources */,
+				2867B1A22ACB1F890011E6E7 /* NSString+POSErrorHandling.h in Sources */,
+				2867B1A32ACB1F890011E6E7 /* NSString+POSErrorHandling.m in Sources */,
+				2867B1A42ACB1F890011E6E7 /* POSErrorHandling.h in Sources */,
+				2867B1A52ACB1F890011E6E7 /* NSError.strings in Sources */,
+				2867B1A62ACB1F890011E6E7 /* POSErrorHandlingFramework.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E9166B9420B7494900C35142 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,7 +431,31 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2867B18E2ACB1F310011E6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2867B1882ACB1F310011E6E7 /* POSErrorHandlingFramework */;
+			targetProxy = 2867B18D2ACB1F310011E6E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		2867B1742ACB1D990011E6E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2867B1752ACB1D990011E6E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2867B1792ACB1D9A0011E6E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2867B17A2ACB1D9A0011E6E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		68ADFC8421146CF000BA89F2 /* NSError.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -222,6 +468,138 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2867B17D2ACB1D9A0011E6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R26JY69RPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2867B17E2ACB1D9A0011E6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R26JY69RPL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2867B1922ACB1F310011E6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R26JY69RPL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSErrorHandlingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2867B1932ACB1F310011E6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = R26JY69RPL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2023 Pavel Osipov. All rights reserved.";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.POSErrorHandlingFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E9166B9F20B7494900C35142 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -359,6 +737,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2867B17F2ACB1D9A0011E6E7 /* Build configuration list for PBXNativeTarget "Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2867B17D2ACB1D9A0011E6E7 /* Debug */,
+				2867B17E2ACB1D9A0011E6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2867B1912ACB1F310011E6E7 /* Build configuration list for PBXNativeTarget "POSErrorHandlingFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2867B1922ACB1F310011E6E7 /* Debug */,
+				2867B1932ACB1F310011E6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E9166B9320B7494900C35142 /* Build configuration list for PBXProject "POSErrorHandling" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E9166B9720B7494900C35142"
-               BuildableName = "libPOSErrorHandling.a"
+               BlueprintIdentifier = "2867B1CD2ACB27010011E6E7"
+               BuildableName = "POSErrorHandling.framework"
                BlueprintName = "POSErrorHandling"
                ReferencedContainer = "container:POSErrorHandling.xcodeproj">
             </BuildableReference>
@@ -50,8 +50,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E9166B9720B7494900C35142"
-            BuildableName = "libPOSErrorHandling.a"
+            BlueprintIdentifier = "2867B1CD2ACB27010011E6E7"
+            BuildableName = "POSErrorHandling.framework"
             BlueprintName = "POSErrorHandling"
             ReferencedContainer = "container:POSErrorHandling.xcodeproj">
          </BuildableReference>

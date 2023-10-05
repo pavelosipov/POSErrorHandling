@@ -34,6 +34,8 @@
 		2867B1FA2ACB27400011E6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1F82ACB27400011E6E7 /* LaunchScreen.storyboard */; };
 		2867B2002ACB27500011E6E7 /* POSErrorHandling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */; };
 		2867B2012ACB27500011E6E7 /* POSErrorHandling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2867B39E2ACEC0720011E6E7 /* POSContracts.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4B420E13590008E71E0 /* POSContracts.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2867B39F2ACEC0750011E6E7 /* NSException+POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -231,6 +233,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2867B1D12ACB27010011E6E7 /* POSErrorHandling.h in Headers */,
+				2867B39E2ACEC0720011E6E7 /* POSContracts.h in Headers */,
+				2867B39F2ACEC0750011E6E7 /* NSException+POSErrorHandling.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

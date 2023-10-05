@@ -7,7 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2867B1D12ACB27010011E6E7 /* POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C32ACF1C41008DE7FF /* POSTrackable.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4AE20E13590008E71E0 /* POSTrackable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C42ACF1C43008DE7FF /* POSTrackableEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4AF20E13590008E71E0 /* POSTrackableEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C52ACF1C46008DE7FF /* POSTrackableEventBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4B820E15CDE008E71E0 /* POSTrackableEventBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C62ACF1C48008DE7FF /* NSError+POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C72ACF1C4A008DE7FF /* POSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 684BFB50219AC37400A09BF4 /* POSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C82ACF1C4C008DE7FF /* POSConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155C92ACF1C88008DE7FF /* POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		281155CB2ACF1F77008DE7FF /* NSString+POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2867B1D52ACB271F0011E6E7 /* POSContracts.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B420E13590008E71E0 /* POSContracts.h */; };
 		2867B1D62ACB271F0011E6E7 /* NSException+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */; };
 		2867B1D72ACB271F0011E6E7 /* NSException+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */; };
@@ -23,7 +30,6 @@
 		2867B1E12ACB271F0011E6E7 /* POSConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */; };
 		2867B1E22ACB271F0011E6E7 /* NSString+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */; };
 		2867B1E32ACB271F0011E6E7 /* NSString+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */; };
-		2867B1E42ACB271F0011E6E7 /* POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E9166BA820B74A1300C35142 /* POSErrorHandling.h */; };
 		2867B1E52ACB271F0011E6E7 /* NSError.strings in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC8421146CF000BA89F2 /* NSError.strings */; };
 		2867B1E62ACB271F0011E6E7 /* POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */; };
 		2867B1EE2ACB273F0011E6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1ED2ACB273F0011E6E7 /* AppDelegate.swift */; };
@@ -80,7 +86,6 @@
 		68ADFC8521146CFE00BA89F2 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/NSError.strings; sourceTree = "<group>"; };
 		68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+POSErrorHandling.h"; sourceTree = "<group>"; };
 		68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+POSErrorHandling.m"; sourceTree = "<group>"; };
-		E9166BA820B74A1300C35142 /* POSErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSErrorHandling.h; sourceTree = "<group>"; };
 		E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+POSErrorHandling.h"; sourceTree = "<group>"; };
 		E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POSTrackableEvent.m; sourceTree = "<group>"; };
 		E986A4AE20E13590008E71E0 /* POSTrackable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POSTrackable.h; sourceTree = "<group>"; };
@@ -196,7 +201,6 @@
 				E986A4AA20E13590008E71E0 /* Tracking */,
 				684BFB4D219AC37400A09BF4 /* Logging */,
 				68ADFC8621147D8100BA89F2 /* Localization */,
-				E9166BA820B74A1300C35142 /* POSErrorHandling.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -232,7 +236,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2867B1D12ACB27010011E6E7 /* POSErrorHandling.h in Headers */,
+				281155C42ACF1C43008DE7FF /* POSTrackableEvent.h in Headers */,
+				281155C32ACF1C41008DE7FF /* POSTrackable.h in Headers */,
+				281155C72ACF1C4A008DE7FF /* POSLogger.h in Headers */,
+				281155C52ACF1C46008DE7FF /* POSTrackableEventBuilder.h in Headers */,
+				281155CB2ACF1F77008DE7FF /* NSString+POSErrorHandling.h in Headers */,
+				281155C82ACF1C4C008DE7FF /* POSConsoleLogger.h in Headers */,
+				281155C92ACF1C88008DE7FF /* POSErrorHandling.h in Headers */,
+				281155C62ACF1C48008DE7FF /* NSError+POSErrorHandling.h in Headers */,
 				2867B39E2ACEC0720011E6E7 /* POSContracts.h in Headers */,
 				2867B39F2ACEC0750011E6E7 /* NSException+POSErrorHandling.h in Headers */,
 			);
@@ -358,7 +369,6 @@
 				2867B1E12ACB271F0011E6E7 /* POSConsoleLogger.m in Sources */,
 				2867B1E22ACB271F0011E6E7 /* NSString+POSErrorHandling.h in Sources */,
 				2867B1E32ACB271F0011E6E7 /* NSString+POSErrorHandling.m in Sources */,
-				2867B1E42ACB271F0011E6E7 /* POSErrorHandling.h in Sources */,
 				2867B1E52ACB271F0011E6E7 /* NSError.strings in Sources */,
 				2867B1E62ACB271F0011E6E7 /* POSErrorHandling.h in Sources */,
 			);

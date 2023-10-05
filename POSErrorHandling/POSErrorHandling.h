@@ -7,6 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <POSErrorHandling/POSTrackableEventBuilder.h>
+#import <POSErrorHandling/POSConsoleLogger.h>
+#import <POSErrorHandling/NSException+POSErrorHandling.h>
+#import <POSErrorHandling/NSError+POSErrorHandling.h>
+#import <POSErrorHandling/NSString+POSErrorHandling.h>
+#import <POSErrorHandling/POSContracts.h>
 
 //! Project version number for POSErrorHandling.
 FOUNDATION_EXPORT double POSErrorHandlingVersionNumber;

@@ -19,8 +19,10 @@ NS_ASSUME_NONNULL_BEGIN
     if (!mainBundle) {
         return nil;
     }
-    NSBundle *stringBundle = [NSBundle bundleWithURL:[mainBundle URLForResource:bundleName
-                                                                  withExtension:@"bundle"]];
+
+    NSURL *url = [mainBundle URLForResource:@"POSErrorHandling" withExtension:@"bundle"];
+    NSBundle *stringBundle = url != nil ? [NSBundle bundleWithURL:url] : mainBundle;
+
     if (!stringBundle) {
         return nil;
     }

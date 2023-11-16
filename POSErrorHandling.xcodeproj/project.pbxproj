@@ -15,63 +15,20 @@
 		281155C82ACF1C4C008DE7FF /* POSConsoleLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281155C92ACF1C88008DE7FF /* POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		281155CB2ACF1F77008DE7FF /* NSString+POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2867B1D52ACB271F0011E6E7 /* POSContracts.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B420E13590008E71E0 /* POSContracts.h */; };
-		2867B1D62ACB271F0011E6E7 /* NSException+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */; };
 		2867B1D72ACB271F0011E6E7 /* NSException+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B320E13590008E71E0 /* NSException+POSErrorHandling.m */; };
-		2867B1D82ACB271F0011E6E7 /* POSTrackable.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AE20E13590008E71E0 /* POSTrackable.h */; };
-		2867B1D92ACB271F0011E6E7 /* POSTrackableEvent.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AF20E13590008E71E0 /* POSTrackableEvent.h */; };
 		2867B1DA2ACB271F0011E6E7 /* POSTrackableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AC20E13590008E71E0 /* POSTrackableEvent.m */; };
-		2867B1DB2ACB271F0011E6E7 /* POSTrackableEventBuilder.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B820E15CDE008E71E0 /* POSTrackableEventBuilder.h */; };
 		2867B1DC2ACB271F0011E6E7 /* POSTrackableEventBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B920E15CDE008E71E0 /* POSTrackableEventBuilder.m */; };
-		2867B1DD2ACB271F0011E6E7 /* NSError+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = E986A4AB20E13590008E71E0 /* NSError+POSErrorHandling.h */; };
 		2867B1DE2ACB271F0011E6E7 /* NSError+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = E986A4B020E13590008E71E0 /* NSError+POSErrorHandling.m */; };
-		2867B1DF2ACB271F0011E6E7 /* POSLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB50219AC37400A09BF4 /* POSLogger.h */; };
-		2867B1E02ACB271F0011E6E7 /* POSConsoleLogger.h in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4E219AC37400A09BF4 /* POSConsoleLogger.h */; };
 		2867B1E12ACB271F0011E6E7 /* POSConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 684BFB4F219AC37400A09BF4 /* POSConsoleLogger.m */; };
-		2867B1E22ACB271F0011E6E7 /* NSString+POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC872114839100BA89F2 /* NSString+POSErrorHandling.h */; };
 		2867B1E32ACB271F0011E6E7 /* NSString+POSErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC882114839100BA89F2 /* NSString+POSErrorHandling.m */; };
-		2867B1E52ACB271F0011E6E7 /* NSError.strings in Sources */ = {isa = PBXBuildFile; fileRef = 68ADFC8421146CF000BA89F2 /* NSError.strings */; };
-		2867B1E62ACB271F0011E6E7 /* POSErrorHandling.h in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */; };
-		2867B1EE2ACB273F0011E6E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1ED2ACB273F0011E6E7 /* AppDelegate.swift */; };
-		2867B1F02ACB273F0011E6E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1EF2ACB273F0011E6E7 /* SceneDelegate.swift */; };
-		2867B1F22ACB273F0011E6E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2867B1F12ACB273F0011E6E7 /* ViewController.swift */; };
-		2867B1F52ACB273F0011E6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1F32ACB273F0011E6E7 /* Main.storyboard */; };
-		2867B1F72ACB27400011E6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1F62ACB27400011E6E7 /* Assets.xcassets */; };
-		2867B1FA2ACB27400011E6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2867B1F82ACB27400011E6E7 /* LaunchScreen.storyboard */; };
-		2867B2002ACB27500011E6E7 /* POSErrorHandling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */; };
-		2867B2012ACB27500011E6E7 /* POSErrorHandling.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2867B39E2ACEC0720011E6E7 /* POSContracts.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4B420E13590008E71E0 /* POSContracts.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2867B39F2ACEC0750011E6E7 /* NSException+POSErrorHandling.h in Headers */ = {isa = PBXBuildFile; fileRef = E986A4B220E13590008E71E0 /* NSException+POSErrorHandling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28E2DF7F2B0678B900C8AD43 /* NSError.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68ADFC8421146CF000BA89F2 /* NSError.strings */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		2867B2022ACB27500011E6E7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E9166B9020B7494900C35142 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2867B1CD2ACB27010011E6E7;
-			remoteInfo = POSErrorHandling;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		2867B2042ACB27500011E6E7 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2867B2012ACB27500011E6E7 /* POSErrorHandling.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = POSErrorHandling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2867B1D02ACB27010011E6E7 /* POSErrorHandling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POSErrorHandling.h; sourceTree = "<group>"; };
-		2867B1EB2ACB273F0011E6E7 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2867B1ED2ACB273F0011E6E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2867B1EF2ACB273F0011E6E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2867B1F12ACB273F0011E6E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,14 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2867B1E82ACB273F0011E6E7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2867B2002ACB27500011E6E7 /* POSErrorHandling.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */,
-				2867B1EB2ACB273F0011E6E7 /* Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -270,25 +218,6 @@
 			productReference = 2867B1CE2ACB27010011E6E7 /* POSErrorHandling.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2867B1EA2ACB273F0011E6E7 /* Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2867B1FC2ACB27400011E6E7 /* Build configuration list for PBXNativeTarget "Example" */;
-			buildPhases = (
-				2867B1E72ACB273F0011E6E7 /* Sources */,
-				2867B1E82ACB273F0011E6E7 /* Frameworks */,
-				2867B1E92ACB273F0011E6E7 /* Resources */,
-				2867B2042ACB27500011E6E7 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2867B2032ACB27500011E6E7 /* PBXTargetDependency */,
-			);
-			name = Example;
-			productName = Example;
-			productReference = 2867B1EB2ACB273F0011E6E7 /* Example.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -300,10 +229,6 @@
 				ORGANIZATIONNAME = "Pavel Osipov";
 				TargetAttributes = {
 					2867B1CD2ACB27010011E6E7 = {
-						CreatedOnToolsVersion = 14.2;
-						ProvisioningStyle = Automatic;
-					};
-					2867B1EA2ACB273F0011E6E7 = {
 						CreatedOnToolsVersion = 14.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -324,7 +249,6 @@
 			projectRoot = "";
 			targets = (
 				2867B1CD2ACB27010011E6E7 /* POSErrorHandling */,
-				2867B1EA2ACB273F0011E6E7 /* Example */,
 			);
 		};
 /* End PBXProject section */
@@ -334,16 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2867B1E92ACB273F0011E6E7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2867B1FA2ACB27400011E6E7 /* LaunchScreen.storyboard in Resources */,
-				2867B1F72ACB27400011E6E7 /* Assets.xcassets in Resources */,
-				2867B1F52ACB273F0011E6E7 /* Main.storyboard in Resources */,
+				28E2DF7F2B0678B900C8AD43 /* NSError.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,45 +269,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2867B1D52ACB271F0011E6E7 /* POSContracts.h in Sources */,
-				2867B1D62ACB271F0011E6E7 /* NSException+POSErrorHandling.h in Sources */,
 				2867B1D72ACB271F0011E6E7 /* NSException+POSErrorHandling.m in Sources */,
-				2867B1D82ACB271F0011E6E7 /* POSTrackable.h in Sources */,
-				2867B1D92ACB271F0011E6E7 /* POSTrackableEvent.h in Sources */,
 				2867B1DA2ACB271F0011E6E7 /* POSTrackableEvent.m in Sources */,
-				2867B1DB2ACB271F0011E6E7 /* POSTrackableEventBuilder.h in Sources */,
 				2867B1DC2ACB271F0011E6E7 /* POSTrackableEventBuilder.m in Sources */,
-				2867B1DD2ACB271F0011E6E7 /* NSError+POSErrorHandling.h in Sources */,
 				2867B1DE2ACB271F0011E6E7 /* NSError+POSErrorHandling.m in Sources */,
-				2867B1DF2ACB271F0011E6E7 /* POSLogger.h in Sources */,
-				2867B1E02ACB271F0011E6E7 /* POSConsoleLogger.h in Sources */,
 				2867B1E12ACB271F0011E6E7 /* POSConsoleLogger.m in Sources */,
-				2867B1E22ACB271F0011E6E7 /* NSString+POSErrorHandling.h in Sources */,
 				2867B1E32ACB271F0011E6E7 /* NSString+POSErrorHandling.m in Sources */,
-				2867B1E52ACB271F0011E6E7 /* NSError.strings in Sources */,
-				2867B1E62ACB271F0011E6E7 /* POSErrorHandling.h in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2867B1E72ACB273F0011E6E7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2867B1F22ACB273F0011E6E7 /* ViewController.swift in Sources */,
-				2867B1EE2ACB273F0011E6E7 /* AppDelegate.swift in Sources */,
-				2867B1F02ACB273F0011E6E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		2867B2032ACB27500011E6E7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2867B1CD2ACB27010011E6E7 /* POSErrorHandling */;
-			targetProxy = 2867B2022ACB27500011E6E7 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2867B1F32ACB273F0011E6E7 /* Main.storyboard */ = {
@@ -484,68 +370,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2867B1FD2ACB27400011E6E7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2867B1FE2ACB27400011E6E7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Example/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 1.0;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = ru.golubev.Example;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -667,15 +491,6 @@
 			buildConfigurations = (
 				2867B1D32ACB27010011E6E7 /* Debug */,
 				2867B1D42ACB27010011E6E7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2867B1FC2ACB27400011E6E7 /* Build configuration list for PBXNativeTarget "Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2867B1FD2ACB27400011E6E7 /* Debug */,
-				2867B1FE2ACB27400011E6E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
